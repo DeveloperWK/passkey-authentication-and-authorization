@@ -15,7 +15,6 @@ import {
   generateAuthenticationOptions,
   verifyAuthenticationResponse,
 } from "@simplewebauthn/server";
-import base64url from "base64url";
 import session from "express-session";
 import memoryStore from "memorystore";
 import type { LoggedInUser } from "./types.d.ts";
